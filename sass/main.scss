@@ -1,9 +1,27 @@
-$color : #282c30;
+//Imports
+@import "navigation";
 
-body {
-    background-color: $color;
+//Colors
+$background-color : #333333;
+$blue : #28add6;
+
+
+//Generall styles
+
+//Spacing
+.mt-6 {
+    margin-top: 5rem;
 }
 
-h1 {
+
+//Colors
+.background-color {
+    background-color: $background-color;
+}
+
+.white {
     color: white;
 }
+
+
+
